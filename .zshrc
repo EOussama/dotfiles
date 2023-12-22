@@ -12,7 +12,7 @@ compinit
 # End of lines added by compinstall
 
 if [ -n "$DISPLAY" ] && [ -z "$TMUX" ]; then
-  tmux attach || tmux new-session
+    tmux new-session
 fi
 
 
