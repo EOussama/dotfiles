@@ -51,5 +51,6 @@ fi
 
 setxkbmap -layout fr
 ~/.config/feh/feh.conf
+picom --config ~/.config/picom/picom.conf &
 
 exec dwm 
