@@ -50,6 +50,6 @@ fi
 
 
 setxkbmap -layout fr
-~/.fehbg
+~/.config/feh/feh.conf
 
 exec dwm 
