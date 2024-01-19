@@ -100,8 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-neofetch
 
 if [ -z "$TMUX" ]; then
 	exec tmux
+fi
+
+if [ -n "$TMUX" ]; then
+	neofetch
 fi
