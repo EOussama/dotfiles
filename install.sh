@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FILES=".bashrc .bash_profile .zshrc .xinitrc"
+FILES=".bashrc .bash_profile .zshrc"
 CURRENT_DIR=$(pwd)
 
 for FILE in $FILES; do

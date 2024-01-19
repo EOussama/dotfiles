@@ -102,10 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 neofetch
 
-if [ -z "$DISPLAY" ];  then
-    exec startx
-fi
-
-if [ -n "$DISPLAY" ] && [ -z "$TMUX" ]; then
-    exec tmux
+if [ -z "$TMUX" ]; then
+	exec tmux
 fi
