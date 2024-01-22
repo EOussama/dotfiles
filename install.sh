@@ -8,7 +8,7 @@ fi
 
 HOME="/home/$USERNAME"
 
-sudo xbps-install -S zsh tmux htop neovim neofetch
+sudo apk add zsh tmux htop neovim neofetch
 
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &>/dev/null
